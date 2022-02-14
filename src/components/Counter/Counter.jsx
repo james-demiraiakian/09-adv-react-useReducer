@@ -2,6 +2,7 @@ import { useEffect, useReducer, useState } from 'react'
 
 const pinkRGB = `rgb(236, 72, 153)`
 
+// I'm leaving in all the original code (the commented stuff) for comparison later, so I can easily and quickly reference what is different
 function countReducer(count, action) {
   switch (action.action) {
     case 'increment': {
@@ -14,7 +15,7 @@ function countReducer(count, action) {
       return 0
     }
     default: {
-      throw new Error('Errorr')
+      throw new Error('EErroorr')
     }
   }
 }
